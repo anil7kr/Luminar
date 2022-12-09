@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 package pkg;
 
 import java.time.Duration;
@@ -47,3 +48,54 @@ public class Wappalyzer {
 		obj.build().perform();
 	}
 }
+=======
+package pkg;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+import io.github.bonigarcia.wdm.WebDriverManager;
+
+public class Wappalyzer {
+	WebDriver Driver;
+	@BeforeTest
+	public void setup() {
+		WebDriverManager.chromedriver().setup();
+		Driver =new ChromeDriver();
+	}
+	@BeforeMethod
+	public void url() {
+		Driver.get("https://www.wappalyzer.com/");
+	}
+	@Test
+	public void test1() {
+		Driver.manage().window().maximize();
+		Driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		Actions obj=new Actions(Driver);
+		WebElement l=	Driver.findElement(By.xpath("//*[@id=\"app\"]/div/main/div/div[1]/header/div/div/div/div[2]/button[2]/span"));
+		obj.moveToElement(l).click().perform();
+		WebElement bl=	Driver.findElement(By.xpath("//*[@id=\"list-item-50\"]/div/div[1]"));
+		bl.click();
+		WebElement bll=	Driver.findElement(By.xpath("//*[@id=\"app\"]/div/main/div/div[2]/div[2]/div/div[2]/div[1]/div[1]/a/div/div/div[2]/span"));
+		obj.moveToElement(bll).click().perform();
+		Driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
+		WebElement by=	Driver.findElement(By.xpath("//*[@id=\"app\"]/div/main/div/div[2]/div[1]/div[2]/div[3]/div/div/a/span"));
+		obj.moveToElement(by).click();
+		obj.build().perform();
+		WebElement bye=	Driver.findElement(By.xpath("//*[@id=\"app\"]/div/main/div/div[2]/div/div[2]/form/div[1]/div[1]/div[1]/div/div[1]/button"));
+		obj.moveToElement(bye).click();
+		obj.build().perform();
+		WebElement bi=Driver.findElement(By.xpath("//*[@id=\"list-947\"]/form/div"));
+		obj.moveToElement(bi).sendKeys("java");
+		obj.build().perform();
+	}
+}
+>>>>>>> 405be22a05d8e7e72e38c463a5ef26df10d2d6a3
