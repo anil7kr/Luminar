@@ -1,0 +1,78 @@
+AEROFIL INTERNATIONAL						
+Version:				Verified by: Rugma		
+Tested by: Anil				Date: 19/12/2022		
+Os: Windows				Browser: Chrome		
+Home Page						
+Test id	Test description	Test procedure	Test data	Expected result	Actual result	status
+AER_HME_01	Check whether Aerofil logo is clearly visible	"1.Open Aerofil home page
+2.Check logo"	www.aerofil.eu	Should display Aerofil logo	Aerofil logo displayed successfully	Pass
+AER_HME_02	Check whether Aerofil site is secure	"1.Open Aerofil home page
+2.Click view site information"	www.aerofil.eu	Should display connection secure	Connection secure displayed successfully	Pass
+AER_HME_03	Check whether top showned contact number is present	"1.Open Aerofil home page
+2.Click contact number"	tel:+499868934317	Should connect call	Connection done it successfully	Pass
+AER_HME_04	Check whether top showned contact email address is present	"1.Open Aerofil home page
+2.Click email address"	info@aerofil.de	Should connect gmail web	Can't connected	Fail
+AER_HME_05	Check whether Aerpfil logo clicking to working fine	"1.Open Aerofil home page
+2.Click the logo"		Should refresh the page	Successfully refresh the page	Pass
+AER_HME_06	Check whether clicking on tag image	"1.Open Aerofil home page
+2.Click on tag image"		Shouldn't change is visible	Change is not visible	Pass
+AER_HME_07	Check whether tag image's right next click button is working	"1.Open Aerofil home page
+2.Click on tag image's right next button"		Should change to visible next image	Successfully visible image	Pass
+AER_HME_08	Check whether tag image's left next click button is working	"1.Open Aerofil home page
+2.Click on tag image's left next button"		Should change to visible next image	Successfully visible image	Pass
+AER_HME_09	Check whether tag image is automattically changed/moved next	"1.Open Aerofil home page
+2.Watch home page's taged images"		Should automatically moved next image phase	They successfully automatic moved next image phase	Pass
+AER_HME_10	Check whether icons on tag image's fully stored	"1.Open Aerofil home page
+2.Click on tag image's icons"		Should must present on images at each icons 	Each icons images presented successfully	Pass
+AER_HME_11	"Check whether Our Product's first ""Pre filter"" tab working"	"1.Open Aerofil home page
+2.Scroll down and click ""Pre filter"" tab"		Should must open various types of Pre filters category	Various types of Pre filters page opened successfully 	Pass
+AER_HME_12	"Check whether Pre filter catogery first ""AeroSyn Rolls"" download menu click to file download automatically"	"1.Open Aerofil home page
+2.Scroll down and click ""Pre filter"" tab
+3.Click ""AeroSyn Rolls"" download data sheet "		Should automatically download the file	Successfully pdf file download automatic	Pass
+AER_HME_13	"Check whether randomly download file Pre filter catogery ""Aero Pleat"" "	"1.Open Aerofil home page
+2.Scroll down click ""Pre filter"" tab
+3.Click ""Aero Pleat"" download data sheet "		Should automatically download the file	Successfully pdf file download automatic	Pass
+AER_HME_14	"Check whether Our Product's ""Fine filter"" tab working"	"1.Open Aerofil home page
+2.Click ""Fine filter"" tab"		Should must open various types of Fine filters category	Various types of Fine filters page opened successfully 	Pass
+AER_HME_15	"Check whether Fine filter catogery first ""Aero Cell"" download menu click to file download automatically"	"1.Open Aerofil home page
+2.Click ""Fine filter"" tab
+3.Click ""Aero Cell"" download data sheet "		Should automatically download the file	Successfully pdf file download automatic	Pass
+AER_HME_16	"Check whether randomly download file Fine filter catogery ""Aero Pac"" "	"1.Open Aerofil home page
+2.Scroll down click ""Fine filter"" tab
+3.Click ""Aero Pac"" download data sheet "		Should automatically download the file	Successfully pdf file download automatic	Pass
+AER_HME_17	"Check whether Our Product's ""HEPA filter"" tab working"	"1.Open Aerofil home page
+2.Click ""HEPA"" tab"		Should must open various types of HEPA filters category	Various types of HEPA filters page opened successfully 	Pass
+AER_HME_18	"Check whether HEPA catogery  ""Aero Bio HEPA"" download menu click to file download automatically"	"1.Open Aerofil home page
+2.Click ""HEPA filter"" tab
+3.Click ""Aero Bio HEPA"" download data sheet "		Should automatically download the file	Successfully pdf file download automatic	Pass
+AER_HME_19	"Check whether randomly download file HEPA filter catogery ""Aero Pac"" "	"1.Open Aerofil home page
+2.Scroll down click ""HEPA filter"" tab
+3.Click ""Aero HEPA HVP"" download data sheet "		Should automatically download the file	Successfully pdf file download automatic	Pass
+AER_HME_20	"Check whether Our Product's ""Carbon Filters"" tab working"	"1.Open Aerofil home page
+2.Click ""Carbon Filters"" tab"		Should must open various types of Carbon Filters category	Various types of Carbon Filters page opened successfully 	Pass
+AER_HME_21	"Check whether Carbon Filter catogery  ""Aero Carb Z"" download menu click to file download automatically"	"1.Open Aerofil home page
+2.Click ""Carbon Filters"" tab
+3.Click ""Aero Carb Z"" download data sheet "		Should automatically download the file	Successfully pdf file download automatic	Pass
+AER_HME_22	"Check whether Carbon Filter catogery  ""Aero Carb VHC"" download menu click to file download automatically"	"1.Open Aerofil home page
+2.Click ""Carbon Filters"" tab
+3.Click ""Aero Carb VHC"" download data sheet "		Should automatically download the file	Successfully pdf file download automatic	Pass
+AER_HME_23	"Check whether Our Product's ""Air Intake Filters"" tab working"	"1.Open Aerofil home page
+2.Click ""Air Intake Filters"" tab"		Should must open various types of Air Intake Filters category	Various types of Air Intake Filters page opened successfully 	Pass
+AER_HME_24	"Check whether Air Intake Filters catogery  ""AERO PLEAT"" download menu click to file download automatically"	"1.Open Aerofil home page
+2.Click ""Air Intake Filters"" tab
+3.Click ""AERO PLEAT"" download data sheet "		Should automatically download the file	Successfully pdf file download automatic	Pass
+AER_HME_25	"Check whether Air Intake Filters catogery  ""AERO PAC P"" download menu click to file download automatically"	"1.Open Aerofil home page
+2.Click ""Air Intake Filters"" tab
+3.Click ""AERO PAC P"" download data sheet "		Should automatically download the file	Successfully pdf file download automatic	Pass
+AER_HME_26	"Check whether Our Product's ""Paint Booth Filters"" tab working"	"1.Open Aerofil home page
+2.Click ""Paint Booth Filters"" tab"		Should must open various types of Paint Booth Filters category	Various types of Paint Booth Filters page opened successfully 	Pass
+AER_HME_27	"Check whether Paint Booth Filters catogery  ""Aero Cell HT"" download menu click to file download automatically"	"1.Open Aerofil home page
+2.Click ""Paint Booth Filters"" tab
+3.Click ""Aero Cell HT"" download data sheet "		Should automatically download the file	Successfully pdf file download automatic	Pass
+AER_HME_28	"Check whether Paint Booth Filters catogery  ""Aero Cell MHT"" download menu click to file download automatically"	"1.Open Aerofil home page
+2.Click ""Paint Booth Filters"" tab
+3.Click ""Aero Cell MHT"" download data sheet "		Should automatically download the file	Successfully pdf file download automatic	Pass
+AER_HME_29	"Check whether click on ""GET A FREE QUOTE/NEED HELP? CONTACT US"""	"1.Open Aerofil home page
+2.Click ""GET A FREE QUOTE/NEED HELP? CONTACT US"" tab"		Should automatically redirect help desk page	Succesfully redirect contact us page	Pass
+AER_HME_30	"Check whether bottom last our products section randomly click ""Carbon Filters"" is working fine"	"1.Open Aerofil home page
+2.Scroll down and click ""Carbon Filters"" tab"		Should automatically redirect Carbon Filters page	Succesfully redirect Carbon Filters page	Pass
